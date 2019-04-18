@@ -1,4 +1,4 @@
-/*Contacts*/
+
 function contactsFunction() {
   var x = document.getElementById("asterisk");
   var y = document.getElementById("contacts");
