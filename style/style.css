@@ -6,10 +6,7 @@
 
 body {
   background-color: #CECECE;
-}
-
-p {
   font-family: 'Steinbeck';
   font-size: 30px;
-  line-height: 30px;
+  line-height: 40px;
 }
