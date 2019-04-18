@@ -1,9 +1,50 @@
-
-@font-face {
-  font-family: 'Steinbeck';
-  src: url(''../fonts/SteinbeckRegular.otf'');
-}
-
 body {
   background-color: #CECECE;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 14vw;
+}
+
+p {
+  font-size: 200px;
+  color: #FFFFFF;
+  line-height: 15vw;
+}
+
+a {
+  text-decoration: none;
+  color: #00A0F9;
+}
+
+a:hover {
+  letter-spacing: 20px;
+}
+
+.text {
+  background-color: #FFF1B6;
+}
+
+img {
+  width: 50vw;
+}
+
+img:hover {
+  outline: solid 10px #FF1200;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    background-color: #002AFC;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #FFFFFF;
+  }
+  img {
+    transform: rotate(90deg);
+  }
 }
