@@ -1,4 +1,3 @@
-
 var imgArray = ["images/0.jpg",
                 "images/1.jpg",
                 "images/2.jpg",
@@ -95,7 +94,7 @@ var imgArray = ["images/0.jpg",
                 "images/93.jpg",
                 "images/94.jpg",
                 "images/95.jpg",
-                "images/blank.jpg"]
+                "images/blank.jpg"];
 
 function newImage(index) {
   document.getElementById('pic').src = imgArray[index];
