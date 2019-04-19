@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Steinbeck';
-  src: url(''../fonts/SteinbeckRegular.otf'');
+  src: url(./style/SteinbeckRegular.otf);
 }
 
 body {
